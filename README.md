@@ -133,8 +133,9 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 | **Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals and HR curve** | --- | --- |
 
 ### References:
-
-| https://arxiv.org/abs/1703.06870Yolo https://arxiv.org/abs/1506.02640
+[Mask -RCNN](https://arxiv.org/abs/1703.06870)
+[YOLO](https://arxiv.org/abs/1703.06870Yolo)
+https://arxiv.org/abs/1703.06870Yolo https://arxiv.org/abs/1506.02640
 Paddle paddle ocr -[https://arxiv.org/abs/2009.09941](https://arxiv.org/abs/2009.09941)
 Resnet - [https://arxiv.org/abs/1512.03385](https://arxiv.org/abs/1512.03385)
 Semi supervised learning - [https://arxiv.org/abs/2006.05278](https://arxiv.org/abs/2006.05278)
