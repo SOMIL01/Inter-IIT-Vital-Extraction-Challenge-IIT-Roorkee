@@ -128,11 +128,10 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 <br> </br>
 ![loss_curves](loss_curves.jpeg)
 <br> </br>
-| **Technique** | **Accuracy** | **Time** |
+| **Technique** | **Accuracy (in %)** | **Inference time per image (in seconds)** |
 | --- | --- | --- |
-| **Screen Extraction with YOLOv5m6 → 2 separate YOLOv5 networks for vitals and HR curve** |---|---|
-| **Screen Extraction with Mask-RCNN → 2 separate YOLOv5 networks for vitals and HR curve** |---|---|
-| **Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals and HR curve** | --- | --- |
+| Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals  | 90.21 | 11  |
+| **Screen Extraction with YOLOv5m6 → 2 separate YOLOv5 networks for vitals** | **93.723** | **2.26**  |
 
 ## References:
 [Mask -RCNN](https://arxiv.org/abs/1703.06870)
