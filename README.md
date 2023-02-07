@@ -143,4 +143,4 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 <br> </br>
 [Resnet](https://arxiv.org/abs/1512.03385)
 <br> </br>
-[Semi supervised learning](https://arxiv.org/abs/2006.05278)
+[An Overview of Deep Semi-Supervised Learning](https://arxiv.org/abs/2006.05278)
