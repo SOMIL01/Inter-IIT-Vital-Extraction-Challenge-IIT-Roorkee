@@ -69,7 +69,7 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 
 - We use Gaussian Blur to blur the images to 6px and also add random noise to 5% of pixels.
 
-![](RackMultipart20230207-1-i33jl_html_e431fdcf8aebc028.png)
+![Screen](screen.png)
 
 ### YOLO's outputs for screen segmentation.
 
@@ -85,7 +85,7 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 
 - We developed a function to manipulate our text files such that we chose only the most confident predictions of each class. We then concatenated these predicted labels to the original dataset and retrained our network thereby implementing SSL with pseudo labeling.
 
-![](RackMultipart20230207-1-i33jl_html_4cf9c8d97126b2ba.png)
+![vitals](vitals.png)
 
 ### Extracting Vital Signs using YOLOv5m6
 
@@ -124,7 +124,7 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 - We used the cosine LR scheduler with maximum learning rate set to the initial learning rate of 0.01 and T\_max set to 50.
 - Our batch size was 32 for the entire pipeline.
 
-### Results ![](RackMultipart20230207-1-i33jl_html_fa3a56d9fcfdf96b.jpg)
+### Results ![loss_curves](loss_curves.jpeg)
 
 | **Technique** | **Accuracy** | **Time** |
 | --- | --- | --- |
