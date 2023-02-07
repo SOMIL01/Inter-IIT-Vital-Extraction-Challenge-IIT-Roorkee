@@ -50,7 +50,7 @@ Since the labeled data given to us was classified into 4 types, we naturally tho
 
 ### Pipeline :
 
-![](RackMultipart20230207-1-i33jl_html_df2ae4c2e7b24363.png)
+![Pipeline](flowchart.png)
 
 ### Screen Extraction:
 
