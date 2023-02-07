@@ -130,8 +130,10 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 <br> </br>
 | **Technique** | **Accuracy (in %)** | **Inference time per image (in seconds)** |
 | --- | --- | --- |
-| Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals  | 90.21 | 11  |
+| Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals  | 90.21 | 11.57  |
 | **Screen Extraction with YOLOv5m6 → 2 separate YOLOv5 networks for vitals** | **93.723** | **2.26**  |
+<br>
+Our final pipeline gave a 93.723% accuracy when tested on a randomly chosen set of 1000 images from the given unlabelled dataset, which was manually annotated. The model had an average inference time of 2.26 seconds per image(a 412% increase in speed from the Mask-RCNN based pipeline) 
 
 ## References:
 [Mask -RCNN](https://arxiv.org/abs/1703.06870)
