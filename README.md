@@ -128,15 +128,9 @@ For improving accuracy and a more robust screen extraction, we employ **data aug
 
 | **Technique** | **Accuracy** | **Time** |
 | --- | --- | --- |
-| **Screen Extraction with YOLOv5m6 → 2 separate YOLOv5 networks for vitals and HR curve** |
- |
- |
-| **Screen Extraction with Mask-RCNN → 2 separate YOLOv5 networks for vitals and HR curve** |
- |
- |
-| **Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals and HR curve** |
- |
- |
+| **Screen Extraction with YOLOv5m6 → 2 separate YOLOv5 networks for vitals and HR curve** |---|---|
+| **Screen Extraction with Mask-RCNN → 2 separate YOLOv5 networks for vitals and HR curve** |---|---|
+| **Screen Extraction with Mask-RCNN → single YOLOv5 network for vitals and HR curve** | --- | --- |
 
 ### References:
 
